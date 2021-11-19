@@ -1,0 +1,203 @@
+h1{
+    font-family: cursive;
+    color: tomato;
+    font-size: 45px;
+    text-align: center;
+}
+
+h2{
+    color: tomato;
+    font-size: 30px;
+}
+
+h3{
+    color: tomato;
+    font-size: 30px;
+}
+
+#parrafos{
+    color: salmon!important;
+    font-family: cursive;
+    text-align: center;
+    font-size: 60px;
+}
+    
+body{
+        background-image: url(../Imagen/fondo\ de\ colores.jpg);
+        background-repeat: no-repeat;/* no repetiimagenr la */
+        background-size: cover;/*que cubra todo el fondo*/
+        font-family: cursive;
+        font-size: 20px;
+ }       
+ 
+.naranja{
+    font-family: cursive;
+    font-size: 20x;
+    color: salmon;
+}
+
+.rosa{
+    color: rgb(199, 44, 57);
+    font-size: 40px;
+    font-family: cursive;
+    text-align: center;
+
+}
+
+a:link{
+    color: snow;
+    padding: 20px;
+    width: 200px;
+    background-color: dimgrey;
+    font-family: cursive;
+    border-right:solid turquoise;
+    font-size: 20px;
+    float: right;
+    margin-left: 20px;
+    
+}
+a:visited{
+    color: salmon;
+    padding: 20px;
+    width: 200px;
+    background-color: rgb(80, 66, 66);
+    font-family: cursive;
+    border-right:solid rgb(28, 29, 29);
+    font-size: 20px;
+    float: right;
+    margin-left: 20px;
+       
+}
+
+a:hover{
+    color: black;
+    padding: 20px;
+    width: 200px;
+    background-color: rgb(33, 211, 193);
+    font-family: cursive;
+    border-right:solid rgb(39, 43, 42);
+    float: right;
+    margin-left: 20px;
+    
+}
+
+a:active{
+     color: lightcoral;
+     padding: 20px;
+     width: 200px; 
+     background-color: rgb(36, 218, 199);
+     font-family: cursive;
+     border-right:solid rgb(95, 119, 117);
+     float: right;
+     margin-left: 20px;
+}
+
+
+.b1:visited{
+    color: rgb(58, 179, 166);
+    background-color: darkslategrey;
+    font-family: cursive;
+    float: right;
+    border-right:solid aqua;   
+}
+   
+.b1:hover{
+    color: brown;
+    font-family: cursive;
+    background-color: white;
+    float: right;
+    border-right:solid aqua;
+    flex-direction: column;
+    margin-left: 10px;    
+}
+
+
+.dos{
+    color: hsl(342, 100%, 66%);
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.tres{
+    color: rgb(196, 36, 124);
+    font-size: 25px;
+    font-family: cursive;    
+}
+
+.cuatro{
+    color: rgb(196, 36, 124);
+ font-family: cursive;
+
+}
+
+.cinco{
+    color: rgb(196, 36, 124);
+    font-family: cursive;
+
+
+}
+.Imagen{
+    float: right;
+}
+
+
+.verde{
+    color: tomato;
+    float: inline-start;
+    font-size: 45px;
+    text-align: center;
+}
+.fotito{
+     float: right;
+ }
+
+.Exboton{
+    font-size: 70px;
+    height: 150px;
+    text-align: center;
+    background-color: rgb(58, 179, 166);
+
+}
+
+footer{
+    background-color: salmon;
+    font-family: cursive;
+    font-size: 35px;
+    float: left;
+    color: rgb(80, 66, 66);
+}
+
+.fab{
+    color: orangered;
+    float: left;
+    font-size: 45px;
+}
+
+.Secundaria{
+     float: left;
+ }
+
+ 
+.text{
+    color: rgb(25, 192, 186);
+    font-family: cursive;
+}
+
+.title{
+    color: coral;
+    font-family: cursive;
+}
+
+.tarjetas{
+    flex-direction: column;
+    justify-content: center;
+    margin: 1%;
+    display: flex;
+    width: 400px; 
+    float: right;
+    margin-top: 60px;
+    background-color: peachpuff;
+    position: relative;    
+}
